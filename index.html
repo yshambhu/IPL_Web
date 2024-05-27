@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html >
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	 <title>ipl2021 website Design</title>
+	<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">	
+	</head>
+	<body> 
+	    <section class="header">
+		     <nav>
+				<a href="index.html"><img src="./images/logo ipl.png"></a>
+				<div class="nav-links" id="navlinks">
+					<i class="fa fa-times" onclick="hidemenu()"></i>
+					 <ul>
+					    <li><a href="index.html">HOME</a></li>
+						 <li><a href="aboutteams.html">TEAM</a></li>
+						<li><a href="teamssquad.html">TEAMS SQUAD</a></li>
+						 <li><a href="performance.html">PERFORMANCE</a></li>
+						 <li><a href="rank.html">RANK</a></li>
+					</ul>
+					 </div>	
+					<i class="fa fa-bars" onclick="showmenu()"></i>
+				 
+			</nav>
+	<div class="text-box">
+			<h1>World's Popular Cricket Premier League</h1>	
+		<p>The Indian Premier League (IPL) is a professional men's <br>Twenty20 cricket league, contested by ten teams based out of ten Indian cities.</p>
+		<a href="visit.html" class="hero-btn">Visite Us To Know More</a> 
+				 </div>	
+		</section>
+		<!-----javascript------>
+		<script>
+			var navlink = document.getElementById("navlinks");
+				
+			function showmenu(){
+				navlink.style.right ="0px";
+				navlink.style.display="block";
+			}
+			function hidemenu(){
+				navlinks.style.right ="-300px";
+				navlink.style.display='none';
+			}	
+			</script>
+	</body>
+	</html>
+		
+	

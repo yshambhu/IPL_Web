@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>ipl2021 website Design</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="./images/logo ipl.png"></a>
+		   <div class="nav-links" id="navlinks">
+			   <i class="fa fa-times" onclick="hidemenu()"></i>
+				<ul>
+				   <li><a href="index.html">HOME</a></li>
+					<li><a href="aboutteams.html">TEAM</a></li>
+				   <li><a href="teamssquad.html">TEAMS SQUAD</a></li>
+					<li><a href="performance.html">PERFORMANCE</a></li>
+					<li><a href="rank.html">RANK</a></li>
+			   </ul>
+				</div>	
+			   <i class="fa fa-bars" onclick="showmenu()"></i>
+			
+	   </nav>
+
+
+	</section>
+
+<!----- Teams------>
+<section class="Teams">
+	<h1> Teams we have</h1>
+	<p> There are eight teams.</p>
+	<div class="team-grid">
+	<div class="Teams-col">
+
+		<h2>Mumbia Indians</h2>
+		<p>Mumbai Indians (MI) is the Mumbai-based Indian Premier League (IPL) franchise that plays its home matches at
+			Wankhede Stadium in Mumbai. It is the only team to win the IPL title five times (2013, 2015, 2017, 2019 and
+			2020).</p>
+		<img src="./images/MIlogo.png">
+	</div>
+	<div class="Teams-col">
+		<h2>Chennai Super Kings</h2>
+		<p>Chennai Super Kings(CSK)is the Chennai-based Indian Premier League (IPL) franchise that plays its home
+			matches at M.A Chidambaram Stadium in Chennai. It is the only team to win the IPL title four times (2010,
+			2011, 2018and 2021) .</p>
+		<img src="./images/csklogo.png">
+	</div>
+	<div class="Teams-col">
+		<h2>Royal Challengers</h2>
+		<p>The Royal Challengers have never won the IPL but finished runners-up on three occasions between 2009 and
+			2016. Their lack of success over the years despite the presence of various notable players has earned them
+			the tag of "underachievers".</p>
+		<img src="./images/rcblogo.png">
+	</div>
+	<div class="Teams-col">
+		<h2>Kolkata Knight Riders</h2>
+		<p>The Kolkata Knight Riders (KKR) are a franchise cricket team representing the city of Kolkata in the Indian
+			Premier League. The franchise is owned by Bollywood actor Shah Rukh Khan, actress Juhi Chawla and her spouse
+			Jay Mehta. The Knight Riders play at the iconic Eden Gardens stadium.It is the only team to win the IPL
+			title two times 2012 and 2014.</p>
+		<img src="./images/K_K_R_Logo.png">
+
+	</div>
+
+	<div class="Teams-col">
+		<h2>Sunrises Hyderabad</h2>
+		<p>The Sunrises Hyderabad(SRH) are a franchise cricket team representing the city of Hyderabad in the Indian
+			Premier League. The franchise is owned by Kalanithi Maran of the SUN Group. It is the only team to win the
+			IPL title one time 2016.</p>
+		<img src="./images/SRlogo.png">
+
+	</div>
+
+	<div class="Teams-col">
+		<h2>Rajasthan Royals</h2>
+		<p>The Rajasthan Royals (RR) is the Jaipur Rajasthan-based Indian Premier League (IPL) franchise that plays its
+			home matches at Sawai Mansingh Stadium in Jaipur.It is the only team to win the IPL title one time 2008</p>
+		<img src="./images/RRLOGO.PNG">
+
+	</div>
+
+	<div class="Teams-col">
+		<h2>Delhi Capitals</h2>
+		<p>The Delhi Capitals (DC) is the Delhi-based Indian Premier League (IPL) franchise that plays its home matches
+			at Arun Jaitley Stadium in Delhi.Delhi Capitals have never won the IPL. </p>
+		<img src="./images/DCLOGO.PNG">
+	</div>
+
+	<div class="Teams-col">
+		<h2>Punjab Kings</h2>
+		<p>The Punjab Kings (PBKS) is the Punjab-based Indian Premier League (IPL) franchise that plays its home matches
+			at PCA Stadium in Mohali.Punjab Kings have never won the IPL. </p>
+		<img src="./images/pklogo.png">
+	</div>
+</div>
+</section>
+
+	<!---------footer------->
+
+	<section class="footer">
+		<div>
+			<h3>CONTACT DETAILS</h3>
+			<p>Email: <br>yshambhukumar370@gmail.com<br>
+				Mobile number:<br> +44 7585498007, 7585598077<br>
+				Whatapp number:<br>+44 7585498007<br>
+			</p>
+		</div>
+		<div>
+			<p> Connect by the following icons </p>
+			<ul>
+				<li><img src="./logo/facebook.webp"> </li>
+				<li><img src="./logo/instagram-png.webp"></li>
+				<li><img src="./logo/twitter-667462_1280.png"></li>
+				<li><img src="./logo/youtube-6362801_1280.png"></li>
+			</ul>
+			<p>Thank you for visiting </p>
+		</div>
+	</section>
+	<!---------footer------->
+
+<script>
+	var navlink = document.getElementById("navlinks");
+		
+	function showmenu(){
+		navlink.style.right ="0px";
+		navlink.style.display="block";
+	}
+	function hidemenu(){
+		navlinks.style.right ="-300px";
+		navlink.style.display='none';
+	}	
+	</script>
+</body>
+</html>

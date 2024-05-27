@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>ipl2021 website Design</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="./images/logo ipl.png"></a>
+			<div class="nav-links" id="navlinks">
+				<i class="fa fa-times" onclick="hidemenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="aboutteams.html">TEAM</a></li>
+					<li><a href="teamssquad.html">TEAMS SQUAD</a></li>
+					<li><a href="performance.html">PERFORMANCE</a></li>
+					<li><a href="rank.html">RANK</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showmenu()"></i>
+
+		</nav>
+
+	</section>
+
+	<!--------visit-------->
+	<section class="visit">
+
+		<h1>IPL 2021</h1>
+		<p>The 2021 Indian Premier Tournament was the fourteenth season of the Indian Premier League (IPL), a
+			professional Twenty20 cricket league created by the Board of Control for Cricket in India (BCCI) in 2007. It
+			was also known as IPL 14 or, for sponsorship reasons, Vivo IPL 2021. The Mumbai Indians were the reigning
+			champions for the second year in a row, having won both the 2019 and 2020 seasons.The BCCI initially
+			announced the tournament's fixtures on March 7, 2021. After an increase in COVID-19 instances within the bio
+			bubbles of individual teams, the event was postponed indefinitely on 4 May 2021. Thirty-one of the scheduled
+			sixty matches were still to be played at the time of the suspension. The BCCI confirmed on May 29, 2021 that
+			the tournament's final matches will be held in the United Arab Emirates in September and October 2021. On
+			July 25, 2021, the schedule for the remainder of the tournament was published.The BCCI said on January 30,
+			2021 that they were confident in their ability to host the event in India. They also stated that the UAE was
+			not being considered as a backup venue.The BCCI also declared on the day of the auction that Vivo has
+			returned as the title sponsor after withdrawing from the last event.The BCCI released the entire schedule
+			for the season on March 7, 2021. Matches were planned at six locations, including all five chosen sites as
+			well as the added option of Mumbai. No team was scheduled to play at their home location to avoid home
+			advantage. The season was set to begin on April 9 and culminate on May 30 at the Narendra Modi Stadium in
+			Ahmedabad with the final. The BCCI also announced that the competition will start behind closed doors, with
+			a decision on whether or not spectators would be let in to be made later.   Hyderabad was added as a backup
+			location after the unexpected surge of COVID-19 instances in India, albeit no matches were played there.If
+			the local government allowed it, BCCI wanted to enable at least 50% of the stadium's crowd to get vaccinated
+			after the move to the UAE. Spectators were permitted in four days before the restart by following COVID-19
+			regulations.
+			[COVID-19 IMPACT]
+			Several players withdrew from the competition because to the growing COVID-19 scenario in India.
+			Ravichandran Ashwin left the Delhi Capitals bubble after the Chennai leg of the competition to "help [his]
+			family" amid the epidemic. After two Kolkata Knight Riders players tested positive for COVID-19 on May 3,
+			2021, the planned match between Kolkata Knight Riders and Royal Challengers Bangalore was postponed. Three
+			members of the Chennai Super Kings camp tested positive on the same day, including bowling coach
+			Lakshmipathy Balaji and CEO Kasi Viswanathan. The Delhi Capitals' whole team was quarantined later that day.
+			Similarly, before of their encounter on May 4, the Mumbai Indians and Sunrisers Hyderabad missed their
+			practise sessions.
+
+			Changes in personnel
+		</p>
+		<div> 
+			<center><button onclick="playPause()" style="margin: 10px; padding: 10px; border-radius: 10px; background-color: lightblue" >Play/Pause</button></center>
+			<br><br>
+			<center>
+				<video id="video">
+				  <source src="./images/ipl.mp4" type="video/mp4">
+				</video>
+			  </center>
+			  <script> 
+				var mp4 = document.getElementById("video"); 
+				function playPause() { 
+				  if (mp4.paused) 
+					mp4.play(); 
+				  else 
+					mp4.pause(); 
+				} 
+				</script>
+		</div>
+
+	</section>
+	<!---------footer------->
+
+<section class="footer">
+	<div>
+		<h3>CONTACT DETAILS</h3>
+		<p>Email: <br>yshambhukumar370@gmail.com<br>
+			Mobile number:<br> +44 7585498007, 7585598077<br>
+			Whatapp number:<br>+44 7585498007<br>
+		</p>
+	</div>
+	<div>
+		<p> Connect by the following icons </p>
+		<ul>
+			<li><img src="./logo/facebook.webp"> </li>
+			<li><img src="./logo/instagram-png.webp"></li>
+			<li><img src="./logo/twitter-667462_1280.png"></li>
+			<li><img src="./logo/youtube-6362801_1280.png"></li>
+		</ul>
+		<p>Thank you for visiting </p>
+	</div>
+</section>
+<!---------footer------->
+	<script>
+		var navlink = document.getElementById("navlinks");
+			
+		function showmenu(){
+			navlink.style.right ="0px";
+			navlink.style.display="block";
+		}
+		function hidemenu(){
+			navlinks.style.right ="-300px";
+			navlink.style.display='none';
+		}	
+		</script>
+</body>
+
+</html>
